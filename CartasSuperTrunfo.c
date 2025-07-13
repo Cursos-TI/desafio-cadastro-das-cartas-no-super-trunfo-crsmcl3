@@ -12,11 +12,35 @@ int main() {
     char codigo_carta1 [3], codigo_carta2 [3]; // Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03). Tipo: char[] (um array de caracteres, ou string)
     char nome_da_cidade1 [30], nome_da_cidade2 [30]; // Nome da Cidade: O nome da cidade. Tipo: char[] (string)
     int populacao1, populacao2; //População: O número de habitantes da cidade. Tipo: int
-    float areaemkm1, areaemkm2; // Área (em km²): A área da cidade em quilômetros quadrados. Tipo: float
+    float area_em_km1, area_em_km2; // Área (em km²): A área da cidade em quilômetros quadrados. Tipo: float
     float pib1, pib2; //PIB: O Produto Interno Bruto da cidade. Tipo: float
     int pturistico1, pturistico2; // Número de Pontos Turísticos: A quantidade de pontos turísticos na cidade. Tipo: int
 
-    printf ("")
+    printf ("CADASTRO DE CARTAS SUPER TRUNFO DE CIDADES\n");
+    
+    printf ("Insira as informações da primeira carta\n");
+
+    printf ("Escolha uma letra (de A a H) para representar o estado: ");
+    scanf ("%c", &estado1);
+    printf ("Agora, digite a letra escolhida, seguida de um número (de 01 a 04)");
+    scanf ("%s", &codigo_carta1);
+    printf ("Digite o nome da cidade (sem espaços): ");
+    scanf ("%s", &nome_da_cidade1);
+    printf ("Digite o número de habitantes: ");
+    scanf ("%d", &populacao1);
+    printf ("Digite a área da cidade (em km²): ");
+    scanf ("%f", &area_em_km1);
+    printf ("Digite o Produto Interno Bruto (PIB), em bilhões: ");
+    scanf ("%f", &pib1);
+    printf ("Digite o número de pontos turísticos da cidade: ");
+    scanf ("%d", &pturistico1);
+
+    
+
+
+
+
+
 
     return 0;
 }
