@@ -16,9 +16,9 @@ int main() {
     float pib1, pib2; //PIB: O Produto Interno Bruto da cidade. Tipo: float
     int pturistico1, pturistico2; // Número de Pontos Turísticos: A quantidade de pontos turísticos na cidade. Tipo: int
 
-    printf ("CADASTRO DE CARTAS SUPER TRUNFO DE CIDADES\n");
+    printf ("CADASTRO DE CARTAS SUPER TRUNFO DE CIDADES\n\n");
     
-    printf ("Insira as informações da PRIMEIRA carta\n");
+    printf ("Insira as informações da PRIMEIRA carta\n\n");
 
     printf ("Escolha uma letra (de A a H) para representar o estado: ");
     scanf ("%c", &estado1);
@@ -35,9 +35,8 @@ int main() {
     printf ("Digite o número de pontos turísticos da cidade: ");
     scanf ("%d", &pturistico1);
 
-    printf ("\n");
-
-    printf ("CONFIRA OS DADOS DE SUA PRIMEIRA CARTA:\n");
+    
+    printf ("\nCONFIRA OS DADOS DE SUA PRIMEIRA CARTA:\n");
     printf ("Estado: %c\n", estado1);
     printf ("Código da Carta: %s\n", codigo_carta1);
     printf ("Nome da Cidade: %s\n", nome_da_cidade1);
@@ -46,28 +45,26 @@ int main() {
     printf ("PIB: R$ %.3f bilhões\n", pib1);
     printf ("Pontos Turísticos: %d\n", pturistico1);
 
-    printf ("\n");
-
-    printf ("Insira as informações da SEGUNDA carta\n");
+    
+    printf ("\nInsira as informações da SEGUNDA carta\n");
 
     printf ("Escolha uma letra (de A a H) para representar o estado: ");
-    scanf ("%c", &estado2);
+    scanf (" %c", &estado2);
     printf ("Agora, digite a letra escolhida, seguida de um número (de 01 a 04): ");
-    scanf ("%s", &codigo_carta2);
+    scanf (" %s", &codigo_carta2);
     printf ("Digite o nome da cidade (sem espaços): ");
-    scanf ("%s", &nome_da_cidade2);
+    scanf (" %s", &nome_da_cidade2);
     printf ("Digite o número de habitantes: ");
-    scanf ("%d", &populacao2);
+    scanf (" %d", &populacao2);
     printf ("Digite a área da cidade (em km²): ");
-    scanf ("%f", &area_em_km2);
+    scanf (" %f", &area_em_km2);
     printf ("Digite o Produto Interno Bruto (PIB), em bilhões: ");
-    scanf ("%f", &pib2);
+    scanf (" %f", &pib2);
     printf ("Digite o número de pontos turísticos da cidade: ");
-    scanf ("%d", &pturistico2);
+    scanf (" %d", &pturistico2);
 
-    printf ("\n");
-
-    printf ("CONFIRA OS DADOS DE SUA SEGUNDA CARTA:\n");
+    
+    printf ("\nCONFIRA OS DADOS DE SUA SEGUNDA CARTA:\n");
     printf ("Estado: %c\n", estado2);
     printf ("Código da Carta: %s\n", codigo_carta2);
     printf ("Nome da Cidade: %s\n", nome_da_cidade2);
