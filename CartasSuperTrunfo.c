@@ -24,9 +24,9 @@ int main() {
     printf ("Escolha uma letra (de A a H) para representar o estado: ");
     scanf ("%c", &estado1);
     printf ("Agora, digite a letra escolhida, seguida de um número (de 01 a 04): ");
-    scanf ("%s", &codigo_carta1);
+    scanf ("%s", codigo_carta1);
     printf ("Digite o nome da cidade (sem espaços): ");
-    scanf ("%s", &nome_da_cidade1);
+    scanf ("%s", nome_da_cidade1);
     printf ("Digite o número de habitantes: ");
     scanf ("%d", &populacao1);
     printf ("Digite a área da cidade (em km²): ");
@@ -56,9 +56,9 @@ int main() {
     printf ("Escolha uma letra (de A a H) para representar o estado: ");
     scanf (" %c", &estado2);
     printf ("Agora, digite a letra escolhida, seguida de um número (de 01 a 04): ");
-    scanf (" %s", &codigo_carta2);
+    scanf (" %s", codigo_carta2);
     printf ("Digite o nome da cidade (sem espaços): ");
-    scanf (" %s", &nome_da_cidade2);
+    scanf (" %s", nome_da_cidade2);
     printf ("Digite o número de habitantes: ");
     scanf (" %d", &populacao2);
     printf ("Digite a área da cidade (em km²): ");
